@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="text" pc-model="fname" name="firstname" id="fname">
+    <span>Your firstname is: <span pc-bind="fname"></span></span>
+    <input type="text" pc-model="lname" name="lastname" id="lname">
+    <span>Your lastname is:<span pc-bind="lname"></span></span>
+    <input type="text" pc-model="mname" name="mname" id="mname">
+    <span>Your middle is:<span pc-bind="mname"></span></span>
+    <button class="btn">My Button</button>
+</body>
+<script src="./script.js"></script>
+</html>
